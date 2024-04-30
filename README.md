@@ -4,11 +4,3 @@ it consume so much time to predict the image. So i search for the internet anh f
 You can read the paper from hear: https://ieeexplore.ieee.org/document/9745574.
 
 The Elunet model have about 650000 parameters compare to 31 milions of tradictional Unet . Therefor, it is so light and just take 0.015s to predict on CPU. 
-### Image: 
-![alt text](<test img/A1_1.jpeg>)
-
-### Mask:
-![alt text](<test img/mask.jpeg>)
-
-### Result:
-![alt text](<test img/result.jpeg>)
