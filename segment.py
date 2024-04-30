@@ -12,7 +12,7 @@ class Segment():
     
     def segment(self, image):
         '''
-        Get an binary image including orange mask(pixel 1) and back ground(pixel 0)
+        Get an binary image including orange mask(pixel 1) and background(pixel 0)
         '''
         image = image / 255.0
         image = np.expand_dims(image, axis = 0).astype(np.float32)
